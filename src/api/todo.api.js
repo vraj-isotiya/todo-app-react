@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
-  timeout: 5000,
+  baseURL: import.meta.env.VITE_BASE_URL,
 });
 
 export const getTodos = () => API.get("/todos");

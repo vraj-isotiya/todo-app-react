@@ -110,7 +110,7 @@ function App() {
     <section className="min-h-screen flex flex-col items-center justify-center p-6">
       <div className="w-full max-w-lg bg-white shadow-xl rounded-2xl p-6">
         <h1 className="text-3xl font-bold text-center text-indigo-600 mb-6">
-          Todo App {console.log("ENV Variable", import.meta.env.VITE_BASE_URL)}
+          Todo App
         </h1>
 
         <div className="flex gap-2 mb-6">

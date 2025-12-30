@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://65.2.168.162:5000/api",
+  baseURL: import.meta.env.VITE_BASE_URL,
 });
 
 export const getTodos = () => API.get("/todos");
